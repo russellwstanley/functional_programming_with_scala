@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="022421f7-c2e0-44ad-9ea7-3402f1fa3f43" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../build.sbt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../lib_managed/jars/junit/junit/junit-4.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../lib_managed/jars/org.hamcrest/hamcrest-core/hamcrest-core-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../lib_managed/jars/org.scala-lang/scala-actors/scala-actors-2.10.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../lib_managed/jars/org.scala-lang/scala-reflect/scala-reflect-2.10.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../lib_managed/jars/org.scalatest/scalatest_2.10/scalatest_2.10-1.9.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/CourseraHttp.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/GradingFeedback.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/ProgFunBuild.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/RecordingLogger.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/RichJsValue.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/ScalaTestRunner.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/Settings.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/StyleChecker.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/build.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/buildSettings.sbt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/project/buildPlugins.sbt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/scalastyle_config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/scalastyle_config_reactive.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/main/scala/common/package.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/main/scala/example/Lists.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/test/scala/example/ListsSuite.scala" afterPath="" />
-    </list>
+    <list default="true" id="022421f7-c2e0-44ad-9ea7-3402f1fa3f43" name="Default" comment="" />
     <ignored path="recfun.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -549,7 +526,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="25" width="1370" height="745" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
