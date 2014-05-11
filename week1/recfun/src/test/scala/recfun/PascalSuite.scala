@@ -29,4 +29,31 @@ class PascalSuite extends FunSuite {
     assert(pascal(2,4) === 7)
   }
 
+  test("pascal: col=5,row=4") {
+    assert(pascal(5,4) === 1)
+  }
+
+  test("check illegal argument exception...c < 0"){
+    intercept[IllegalArgumentException]{
+      pascal(-1,3)
+    }
+  }
+
+  test("check illegal argument exception...r too high"){
+    intercept[IllegalArgumentException]{
+      pascal(3,1)
+    }
+  }
+
+  test("check illegal argument exception...r 0 c 1"){
+    intercept[IllegalArgumentException]{
+      pascal(1,0)
+    }
+  }
+
+  test("check illegal argument exception...r<0"){
+    intercept[IllegalArgumentException]{
+      pascal(0,-1)
+    }
+  }
 }
