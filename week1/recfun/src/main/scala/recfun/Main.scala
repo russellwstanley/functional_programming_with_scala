@@ -54,19 +54,25 @@ object Main {
    * Exercise 3
    */
   def countChange(money: Int, coins: List[Int]): Int = {
-    var changeSet = Set[Map[Int,Int]]()
-    def countChangeRec(history : Map[Int,Int],remainingCash : Int){
-      if(remainingCash == 0) {
-        changeSet += history
-      }
-      else if (remainingCash > 0) {
-        for(coin <- coins){
-          if(!history.contains(coin)) countChangeRec(history + (coin -> 1), remainingCash - coin)
-          else countChangeRec(history + (coin->(history(coin)+1)), remainingCash - coin)
-        }
+      countSortedChange(money,coins.sorted)
+  }
+
+  def countSortedChange(money: Int, coins: List[Int]): Int = {
+    def branchLeft = countSortedChange(money - coins.head, coins)
+    def branchRight = countSortedChange(money, coins.tail)
+    if (coins.isEmpty) 0
+    else {
+      val balance = money - coins.head
+      balance match {
+        case 0 => 1
+        case x if x > 0 => branchLeft + branchRight
+        case x if x < 0 => branchRight
       }
     }
-    countChangeRec(Map[Int,Int](),money)
-    changeSet.size
   }
+
+
+
+
+
 }
